@@ -8,9 +8,10 @@ mongoose.set("strictQuery", true);
 
 exports.databaseConnection = async ()=>{
     try{
-        // await mongoose.connect("mongodb://127.0.0.1:27017/r8")
-        // mongodb+srv://noman123:<password>@cluster0.dwnybhf.mongodb.net/?retryWrites=true&w=majority
-        await mongoose.connect("mongodb+srv://noman123:noman123@cluster0.dwnybhf.mongodb.net/medium-r8?retryWrites=true&w=majority")
+
+
+
+        await mongoose.connect("Mongodb_uri_link")
 
         console.log("databse Connected!!")
     }
