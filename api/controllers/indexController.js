@@ -129,7 +129,7 @@ exports.sendMail = async (req, res, next) => {
             port: 465,
             auth: {
                 user: "n.arocks10@gmail.com",
-                pass: "nsidwoqvippomfrv",
+                pass: "Kindly_use_your_own_password",
             },
         });
 
