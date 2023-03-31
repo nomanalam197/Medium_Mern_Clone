@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+    color: black
+  }
+  .write{
+  }
+  .write .writeLogo img{
+      width: 50px;
+  }
+  .writeNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .writeLogo{
+  
+    display: flex;
+    align-items: center;
+  
+  }
+  .writePublish{
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .writeRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+  }
+  .writeProfile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  
+  .profile{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin: 5vmax 10vmax;
+  }
+  .profile a{
+    margin-right: 20px;
+  }
+  .Home{
+    padding-bottom: 1vh;
+    border-bottom: 2.6px solid black;
+  }
+  .profileLeft h1{
+    margin: 2vw 0vw;
+  }
+  .profile hr{
+    margin-top: 5px;
+  }
+  .profile .profilelist{
+    width: 40vmax;
+    height: 10vmax;
+    background-color: rgba(0, 0, 0, 0.274);
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .profileright{
+    margin: 20px;
+  }
+  .profileBtn{
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .profileprofile{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 20px;
+  }
+  
+  .card{
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.466) ;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+@media(max-width: 600px) {
+      
+  .profile{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .profileBtn{
+    display: none;
+  }
+  .profileright h3{
+    display: none;
+  }
+  .profileright a{
+    display: none;
+  }
+  .Home{
+    padding-bottom: 0.6vh;
+  }
+  .profile{
+    margin: 1vmax 1vw;
+  }
+  .profileprofile{
+    height: 150px;
+    width: 150px;
+  }
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main {
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: red; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 80vw; */
+}
+
+@media(max-width: 600px) {
+    .main{
+        padding-bottom: 60vw
+    }
+}

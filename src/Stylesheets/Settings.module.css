@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    /* background-color: red; */
+    width: 100vmax;
+    height: 100vmax;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    width: 70vmax;
+    height: 100vmax;
+    /* background-color: yellow; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.right{
+    width: 30vmax;
+    height: 100vmax;
+    /* background-color: green; */
+}
+.headingR{
+    height: 8vmax;
+    width: 30vmax;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: goldenrod; */
+}
+.rightRRcontent{
+    height: 12vmax;
+    width: 30vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* background-color: slateblue; */
+}
+.headingR h3{
+    margin-bottom: 1vmax;
+    /* font-size: 3vmax; */
+    /* font-weight: 600; */
+}
+.leftL{
+    height: 60vmax;
+    width: 10vmax;
+    /* background-color: tomato; */
+}
+.rightR{
+    height: 60vmax;
+    width: 60vmax;
+    /* background-color: firebrick; */
+}
+.heading{
+    /* background-color: turquoise; */
+    height: 8vmax;
+    width: 60vmax;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+}
+.heading h1{
+    margin-bottom: 1vmax;
+    font-size: 3vmax;
+    font-weight: 600;
+}
+.rightRcontent{
+    height: 52vmax;
+    width: 60vmax;
+    /* background-color: violet; */
+    display: auto;
+    /* flex-direction: column; */
+}
+.bar{
+    height: 3vmax;
+    width: 54vmax;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1vmax solid gray;
+}
+.barS{
+    /* background-color:firebrick; */
+    height: 45vmax;
+    width: 52vmax;
+    padding: 1.5vmax;
+    overflow: auto;
+}
+.barS::-webkit-scrollbar{
+    display: none;
+}
+.barsB{
+    /* background-color: rebeccapurple; */
+    height: 6vmax;
+    width: 49vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle{
+    height: 1.5vmax;
+    width: 1.5vmax;
+    border-radius: 3vmax;
+    background-color: gray;
+    margin: 0vmax 1vmax;
+}
+.hr{
+    margin: 1vmax 0vmax;
+}
+.imgB{
+    margin: 0vmax 1vmax;
+    color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+        /* background-color: red; */
+        width: 100vw;
+        overflow: hidden;
+    }
+    .heading{
+        height: 8vmax;
+        width: 60vmax;
+        margin: 3vw;
+    }
+    .heading h1{
+        font-weight: 700;
+        font-size: 8vw;
+    }
+    .left{
+        width: 100vw;
+        /* background-color: red; */
+    }
+    .rightR{
+        width: 100vw;
+        /* background-color: firebrick; */
+    }
+    .rightRcontent{
+        width: 100vw;
+    }
+    .bar{
+        height: 7vmax;
+        width: 100vw;
+        flex-wrap: wrap;
+        gap: 0.5vw
+        /* background-color: red; */
+    }
+    .barS{
+        /* background-color:firebrick; */
+        height: 85vmax;
+        width: 100vw;
+        flex-wrap: wrap;
+        /* gap: 0.5vw; */
+    }
+    .barsB{
+        /* gap: 5vw; */
+        width: 95vw;
+        gap: 2vw;
+        margin-bottom: 3vh;
+    }
+    .circle{
+        margin-top: 0.1vh;
+        height: 2.5vmax;
+        width: 2.5vmax;
+    }
+    .leftL{
+        display: none
+    }
+    .right{
+        display: none
+    }
+}

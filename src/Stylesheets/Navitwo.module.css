@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.navii{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #FFC017; */
+    width: 100vw;
+    height: 12vh;
+    border-bottom: 0.1vw solid gray !important;
+    /* border-bottom: 0.5vh solid black;  */
+    position: relative;
+    background-color: white;
+  }
+  .onen{
+    width: 50vw;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .onen img{
+    z-index: 9;
+    width: 4vw;
+    height: 10vh;
+    margin-left: 3vw;
+  }
+  .in{
+    height: 6vh;
+    width: 20vw;
+    margin-left: 1vw;
+    border-radius: 3vw;
+    resize: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+  }
+  .twon{
+    width: 50vw;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .contentn{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 30vw; */
+  }
+  .W{
+    width: 4vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+  }
+  .twon .CircleD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.5vw !important;
+    height: 8vh;
+    /* background-color: red; */
+  }
+  .twon .started{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.475);
+    width: 2.6vw !important;
+    height: 5vh;
+    border-radius: 3vw;
+    margin-left: 1vw;
+  }
+  .connection{
+    text-decoration: none;
+    color: black;
+    margin-left: 2.5vw;
+  }
+  .rectangularBox{
+    width: 12vw;
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    right: 1.5%;
+    /* border-radius: 0.5vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3ms;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+  }
+  /* .rectangleF:nth-child(even){
+    background-color: teal;
+  } */
+  .rectangleF{
+    height: calc(40vh/5);
+    width: 12vw;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pro{
+    display: flex;
+  }
+  .bpng{
+    width: 2vw;
+    height: 3.7vh;
+    padding-right: 0.2vw;
+  }
+
+  @media screen and (max-width: 600px) {
+    .in{
+      display: none;
+    }
+    .contentn{
+      width: 40vw;
+    }
+  .twon .CircleD{
+    width: 20vw !important;
+    /* background-color: red; */
+  }
+    .twon .started{
+      width: 8vw !important;
+      height: 3.7vh;
+      border-radius: 6vw
+    }
+    .connection{
+      margin-left: 0vw;
+    }
+    .bell{
+      margin-left: 10vw
+    }
+    .onen img{
+      width: auto;
+      height: 8vh;
+    }
+    .rectangularBox{
+      width: 30vw;
+      height: 40vh;
+    }
+    .rectangleF{
+      height: calc(40vh/5);
+      width: 30vw;
+    }
+    .bpng{
+      width: 9vw;
+    padding-right: 1vw;
+    }
+  }

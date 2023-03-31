@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    /* background-color: red !important; */
+    /* overflow: hidden; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgba(255, 255, 255, 0.717); */
+}
+.logreg{
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+.log{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh
+    /* background: green; */
+}
+.formU{
+    width: 36vw;
+    height: 76vh;
+    display: flex;
+    gap: 0.1vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.formU input{
+    width: 16vw;
+    height: 1vh;
+    padding: 12px 17px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.formU input[type=submit]{
+    width: 8vw;
+    height: auto !important;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #0188C2;
+    border: 1px solid blue;
+    border-radius: 0.2vw;
+    font-size: 0.8vw;
+    font-weight: 800
+}
+
+.hOne{
+    padding-bottom: 1.6vh
+}
+
+.hO{
+    padding-bottom: 6vh;
+}
+
+.submit{
+    background-color: #008000 !important
+}
+
+.formU input[type=submit]:hover{
+    background-color: green;
+    cursor: pointer
+}
+.reg{
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: firebrick; */
+    gap: 2vh;
+    flex-direction: column
+}
+.contents{
+    height: 90vh;
+    width: 40vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 2vh
+}
+.one{
+    height: 15vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: aquamarine; */
+}
+.cross{
+    width: 40vw;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+.cross img{
+    padding: 0.5vh;
+    font-weight: 100;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.two{
+    height: 65vh;
+    width: 40vw;
+    /* background-color: saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    /* background-color: gray; */
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    margin: 0.7vh;
+    border-radius: 4vw;
+    justify-content: center;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.contentlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+}
+.contentlogo img{
+    height: 4vh;
+    width: 2.2vw;
+    padding-right: 0.5vw;
+}
+.two h6{
+    margin: 1.5vw 0vw;
+}
+.two h6 span{
+    color: green;
+}
+.three{
+    height: 20vh;
+    width: 40vw;
+    /* background-color: firebrick; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.three p{
+    font-size: 1vw;
+    color: gray;
+    text-align: center;
+    padding: 0.7vw;
+}
+@media screen and (max-width: 600px) {
+    .logreg{
+        flex-direction: column;
+    }
+    .formU{
+        width: 76vw;
+        height: 55vh;
+        text-align: center;
+    }   
+    .formU input{
+        width: 35vw;
+        height: 2vh;
+    }
+    .formU input[type=submit]{
+        width: 18vw;
+        height: auto !important;
+        font-size: 1.8vw;
+
+    }
+    .contents{
+        width: 76vw;
+        height: 80vh;
+        margin-bottom: 4vh
+    }
+    .cross{
+        width: 76vw;
+    }
+    .box{
+        width: 30vw;
+        height: 7vh;
+    }
+    .contentlogo{
+        font-size: 2vw;
+    }
+    .welcome{
+        text-align: center
+    }
+    .contentlogo img{
+        height: 3.5vh;
+        width: 6vw;
+        padding-right: 0.5vw;
+    }
+}

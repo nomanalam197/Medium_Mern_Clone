@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.mainM{
+  width: 100vw;
+  min-height: 100vh;
+}
+#write{
+}
+#write .writeLogo img{
+    width: 50px;
+}
+#writeNav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.writeLogo{
+
+  display: flex;
+  align-items: center;
+
+}
+.writePublish{
+  height: 30px;
+  width: 100px;
+  background-color: green;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.writeRight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  right: -93px;
+    top: 27px;
+    top: 22px;
+}
+.writeProfile{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+#profile{
+  display: flex;
+  color: black;
+  text-decoration: none;
+  margin: 5vmax 10vmax;
+}
+#profile a{
+  margin-right: 20px;
+  
+  
+}
+#profile hr{
+  margin-top: 5px;
+}
+#profile .profilelist{
+  width: 40vmax;
+  height: 10vmax;
+  background-color: rgba(0, 0, 0, 0.274);
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.5vmax;
+}
+.profileright{
+  margin: 20px;
+}
+.profileBtn{
+  width: 400px;
+  height: 40px;
+  background-color: black;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.profileprofile{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 20px;
+}
+
+.card{
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.466) ;
+  border-radius: 10px;
+  padding: 10px;
+}
+.resWright{
+  position: absolute;
+  right: -300px;
+}
+.profileLeft{
+  padding-bottom: 2vh !important;
+}
+@media(max-width: 1211px) {
+
+ 
+  .resWright{
+    position: relative;
+    right: 0 !important;
+   
+  }
+
+}
+@media(max-width: 600px) {
+  .profileLeft{
+    width: 100vw;
+  }
+  #profile{
+    overflow: hidden;
+    margin: 0vw 0vw;
+    min-height: 100vh;
+  }
+  .profileLeft{
+    margin-right: 0vmax !important;
+    padding: 1vw;
+  }
+}
+
+.editorMain{
+  padding: 2vw;
+}
+.saveEditor{
+  margin-right: 1vw !important;
+  background-color: #03A103;
+  padding: 0.5vw;
+}
+
+.clearEditor{
+  margin-right: 1vw !important;
+  background-color: skyblue;
+  padding: 0.5vw;
+}
